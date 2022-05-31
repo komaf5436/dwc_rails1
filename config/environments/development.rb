@@ -73,4 +73,7 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+
+  # ホストがブロックされたので許可してもらうためサーバー立ち上げ時に表示された下記のコードを開発環境の設定ファイルへ追記
+  config.hosts << "1e328e3692894e45a047debad7b41fbf.vfs.cloud9.ap-northeast-1.amazonaws.com"
 end
