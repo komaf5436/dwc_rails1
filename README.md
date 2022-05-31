@@ -38,5 +38,5 @@ rails g(generate)
 
 ### 削除
 rails d controller コントローラ名  
-上記のコマンドを実行することによってコントローラが削除される。
+上記のコマンドを実行することによってコントローラが削除される。  
 rails d(destroy)
