@@ -1,24 +1,30 @@
-# README
+# アプリケーション作成方法
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 作成・削除
+### 新規作成
+rails new アプリケーション名
+上記のコマンドを実行することによってアプリケーションの雛形が作成される。
 
-Things you may want to cover:
+### 削除
+rm -rf アプリケーション名
+上記のコマンドを実行することによって作成したアプリケーション名を削除することが出来る。
+-rf(remove recursively forcd)とは「フォルダ内の全てのファイルとフォルダを削除する」という意味。
 
-* Ruby version
+## フォルダ
+### app
+実際に開発するRailsアプリケーションの主要ファイルが保存されている。
 
-* System dependencies
+### bin
+Railsで使用されるコマンドの設定ファイルが入っている。本フォルダは基本的には手をつけない。
 
-* Configuration
+### config
+Railsアプリケーションに関する設定ファイルが入っている。
 
-* Database creation
+### db
+データベースに関する設定ファイルが保存されている。
 
-* Database initialization
+### public
+サーバーにデプロイ(アプリケーションの公開)をした後、ウェブ上に公開されるファイルを保存している。
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### test
+アプリケーションのテストに関するファイルを保存している。
